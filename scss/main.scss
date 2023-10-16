@@ -1,0 +1,19 @@
+// Importez  base 
+@import 'base/mixins';
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/variables';
+
+// Importez  components 
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/modals';
+@import 'components/tabs';
+
+// Importez  layouts 
+@import 'layouts/footer';
+@import 'layouts/navBar';
+@import 'layouts/header';
+@import 'layouts/about';
+@import 'layouts/main';
+

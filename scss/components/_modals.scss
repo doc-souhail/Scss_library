@@ -1,0 +1,33 @@
+// @import 'base/variables'; // Importez vos variables globales
+
+// .modal {
+//   display: none;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   height: 100%;
+//   background-color: rgba(0, 0, 0, 0.5); // Arrière-plan semi-transparent
+//   z-index: $z-index-modal; // Utilisez la variable de niveau de superposition définie dans _variables.scss
+//   overflow: auto;
+
+//   &.open {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//   }
+
+//   .modal-content {
+//     background-color: white;
+//     padding: $margin-medium; // Utilisez la variable de marge moyenne pour l'intérieur de la modale
+//     border-radius: $border-radius; // Utilisez la variable de bordure définie dans _variables.scss
+//     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+
+//     .close {
+//       position: absolute;
+//       top: $margin-small; // Utilisez la variable de petite marge pour le bouton de fermeture
+//       right: $margin-small;
+//       cursor: pointer;
+//     }
+//   }
+// }

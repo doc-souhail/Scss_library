@@ -1,0 +1,32 @@
+ // Importez vos variables globales
+@import 'base/variables';
+
+
+// Mixin pour créer un bouton
+@mixin button($background, $color) {
+    background-color: $background;
+    color: $color;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+
+  // .button {
+  //   display: inline-block;
+  //   padding: $button-padding; // Utilisez la variable de taille de bouton définie dans _variables.scss
+  //   background-color: $primary-color; // Utilisez la variable de couleur principale
+  //   color: white;
+  //   border: none;
+  //   border-radius: $button-border-radius; // Utilisez la variable de bordure définie dans _variables.scss
+  //   cursor: pointer;
+  //   font-size: $button-font-size; // Utilisez la variable de taille de police pour le bouton
+  //   text-align: center;
+  //   text-decoration: none;
+  
+  //   &:hover {
+  //     background-color: darken($primary-color, 10%); // Assombrissez légèrement la couleur au survol
+  //   }
+  // }  

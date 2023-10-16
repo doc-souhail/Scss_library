@@ -1,0 +1,15 @@
+.box{
+    width: 150px;
+    height: 70px;
+    border: 1px solid green;
+    margin: 10px;
+}
+
+main{
+    width: 800px;
+    height: 500px;
+    border: 1px solid red;
+    
+    @include alignItems(space-between);
+}
+

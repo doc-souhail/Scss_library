@@ -1,0 +1,52 @@
+// Mixin pour la police de texte
+@mixin font($font-family, $font-size, $line-height) {
+    font-family: $font-family;
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+
+
+// Mixin pour centrer un élément horizontalement et verticalement
+@mixin centerXY($column : column) {
+    display: flex;
+    flex-direction: $column;
+    align-items: center;
+    justify-content: center;
+}
+
+// Mixin pour centrer un élément horizontalement et verticalement avec un direction column
+
+@mixin justifyContent($param : center) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: $param;
+}
+
+@mixin alignItems($param : center) {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: $param;
+    justify-content: center;
+}
+
+
+// Mixin pour ajouter une ombre
+@mixin box-shadow($x, $y, $blur, $color) {
+    box-shadow: $x $y $blur $color;
+  }
+
+
+// Mixin pour ajouter des transitions CSS
+@mixin transition($property, $duration) {
+    transition: $property $duration ease;
+  }
+
+// media query "Breakpoint"
+@mixin media-query($breakpoint) {
+@media (min-width: $breakpoint) {
+    @content;
+    }
+  }  
+
+
